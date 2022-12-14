@@ -1,0 +1,38 @@
+.landing {
+  display: flex;
+  column-gap: 100px;
+}
+
+.landing_actions {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.landing_actions button {
+  padding: 20px 60px;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-left: 0px;
+}
+
+.landing_actions__text {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.landing_actions button:hover {
+  background-color: red;
+  color: #fff;
+}
+
+.landing_image {
+  width: 50%;
+}
+
+.landing_image img {
+  object-fit: cover;
+  width: 60%;
+  margin-left: 200px;
+}
